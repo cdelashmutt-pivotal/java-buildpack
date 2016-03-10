@@ -1,8 +1,4 @@
 # Cloud Foundry Java Buildpack
-[![Build Status](https://travis-ci.org/cloudfoundry/java-buildpack.svg?branch=master)](https://travis-ci.org/cloudfoundry/java-buildpack)
-[![Dependency Status](https://gemnasium.com/cloudfoundry/java-buildpack.svg)](https://gemnasium.com/cloudfoundry/java-buildpack)
-[![Code Climate](https://codeclimate.com/repos/5224adaec7f3a3415107004c/badges/bc49f7d7f8dfc47057c8/gpa.svg)](https://codeclimate.com/repos/5224adaec7f3a3415107004c/feed)
-[![Code Climate](https://codeclimate.com/repos/5224adaec7f3a3415107004c/badges/bc49f7d7f8dfc47057c8/coverage.svg)](https://codeclimate.com/repos/5224adaec7f3a3415107004c/feed)
 
 The `java-buildpack` is a [Cloud Foundry][] buildpack for running JVM-based applications.  It is designed to run many JVM-based applications ([Grails][], [Groovy][], Java Main, [Play Framework][], [Spring Boot][], and Servlet) with no additional configuration, but supports configuration of the standard components, and extension to add custom components.
 
@@ -77,6 +73,7 @@ To learn how to configure various properties of the buildpack, follow the "Confi
 	* [Tomcat](docs/container-tomcat.md) ([Configuration](docs/container-tomcat.md#configuration))
 * Standard Frameworks
 	* [AppDynamics Agent](docs/framework-app_dynamics_agent.md) ([Configuration](docs/framework-app_dynamics_agent.md#configuration))
+	* [Container Certificate Trust Store](docs/framework-container_certificate_trust_store.md) ([Configuration](docs/framework-container_certificate_trust_store.md#configuration))
 	* [Debug](docs/framework-debug.md) ([Configuration](docs/framework-debug.md#configuration))
 	* [DynaTrace Agent](docs/framework-dyna_trace_agent.md) ([Configuration](docs/framework-dyna_trace_agent.md#configuration))
 	* [Introscope Agent](docs/framework-introscope_agent.md) ([Configuration](docs/framework-introscope_agent.md#configuration))
